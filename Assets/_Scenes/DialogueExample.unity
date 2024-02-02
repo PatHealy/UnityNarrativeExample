@@ -1353,7 +1353,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.035659865, y: 0.95869994, z: -0.24538167, w: 0.13932219}
+  m_LocalRotation: {x: 0.03565986, y: 0.95869994, z: -0.24538167, w: 0.13932216}
   m_LocalPosition: {x: -4.94, y: 5.01, z: 8.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1458,7 +1458,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1021119241}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.035659865, y: 0.95869994, z: -0.24538167, w: 0.13932219}
+  m_LocalRotation: {x: 0.03565986, y: 0.95869994, z: -0.24538167, w: 0.13932216}
   m_LocalPosition: {x: -4.94, y: 5.01, z: 8.74}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -1856,7 +1856,7 @@ RectTransform:
   - {fileID: 1928880246}
   m_Father: {fileID: 430191778}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.66}
+  m_AnchorMin: {x: 0, y: 0.8}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
@@ -1874,7 +1874,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.84313726}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -2729,7 +2729,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cameraPosition: {fileID: 146549689}
   cameraTarget: {fileID: 1862474045}
-  inkJSONAsset: {fileID: 0}
+  inkJSONAsset: {fileID: 4900000, guid: 335d41e4bf6f78847827fbefd1c6be28, type: 3}
   buttonPrefab: {fileID: 11455116, guid: 37c108a6c38964f79a6621eccb33ddc1, type: 3}
 --- !u!4 &644027912236438178 stripped
 Transform:

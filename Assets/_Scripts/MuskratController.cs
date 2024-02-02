@@ -1,10 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class MuskratController : MonoBehaviour
 {
     Animator _anim;
+    public CinemachineVirtualCamera secondaryCamera;
 
     private void Awake()
     {
@@ -28,4 +30,13 @@ public class MuskratController : MonoBehaviour
             _anim.SetBool("isWalking", false);
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            secondaryCamera.enabled = !secondaryCamera.enabled;
+        }
+    }
+
 }
