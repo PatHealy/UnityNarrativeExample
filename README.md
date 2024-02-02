@@ -4,3 +4,7 @@ This is a simple example, made for Dmitriy Babichenko's class on 2/2/24, of a co
 
 - Cinemachine
 - Ink Integration for Unity
+
+Some Helpful Links:
+
+- (Ink)[https://www.inklestudios.com/ink/]
